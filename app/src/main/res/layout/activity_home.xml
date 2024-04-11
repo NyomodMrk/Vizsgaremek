@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+     <LinearLayout
+         android:id="@+id/LinearLayout_Home"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         >
+
+         <!--Drop down menu, posztok betoltese -->
+         <TextView
+             android:id="@+id/textview_home_username"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Username"
+             android:textSize="25dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="____________"
+             android:layout_marginBottom="20dp"
+             android:textSize="25dp"/>
+
+         <Button
+             android:id="@+id/button_Home_Profile"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="25dp"
+             android:text="Profile"/>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/button_Home_home"
+             android:textSize="25dp"
+             android:text="Home"/>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/button_Home_search"
+             android:textSize="25dp"
+             android:text="Search"/>
+
+         <Button
+             android:id="@+id/button_Home_Post"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="425dp"
+             android:layout_weight="1"
+             android:textSize="25dp"
+             android:text="Post" />
+
+     </LinearLayout>
+
+</LinearLayout>

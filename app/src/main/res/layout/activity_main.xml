@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:id="@+id/linearLayoutLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+
+        <EditText
+            android:id="@+id/edittext_login_username"
+            android:hint="Username/email"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edittext_login_password"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/button_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button_login_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

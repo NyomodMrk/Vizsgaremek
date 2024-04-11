@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registerpage">
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+
+        <EditText
+            android:id="@+id/edittext_register_username"
+            android:hint="Username"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edittext_register_email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <EditText
+            android:id="@+id/edittext_register_password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edittext_register_password_again"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/button_register_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/button_register_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Back"
+                android:textSize="25dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
